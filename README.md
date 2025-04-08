@@ -9,3 +9,5 @@
 - Compiling instructions:
   No compilation needed. Run with:
   python3 mydns.py domain-name root-dns-ip
+
+to run enter: python mydns.py cs.fiu.edu 202.12.27.33
