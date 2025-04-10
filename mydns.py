@@ -360,7 +360,7 @@ def get_next_server_ip(authority, additional, queried_servers):
         if auth['type'] == TYPE_NS:
             name_servers.append(auth['data'])
     
-    # If no name servers found, we're stuck
+    # If no name servers found
     if not name_servers:
         return None
     
@@ -382,7 +382,7 @@ def get_next_server_ip(authority, additional, queried_servers):
         print(f"Name : {first_ns} (already queried, but trying again)")
         return ns_to_ip[first_ns]
     
-    # If we can't find any IPs for the name servers, we're stuck
+    # If we can't find any IPs for the name servers
     return None
 
 if __name__ == "__main__":
