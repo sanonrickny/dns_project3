@@ -2,7 +2,7 @@
 
 - Member names and IDs:
   Rickny Sanon - 6431746
-  name - stu-ID
+  Alonso Ochoa - 6454404
 
 - Language used: Python3
 
@@ -10,4 +10,4 @@
   No compilation needed. Run with:
   python3 mydns.py domain-name root-dns-ip
 
-to run enter: python mydns.py cs.fiu.edu 202.12.27.33
+  Example: python mydns.py cs.fiu.edu 202.12.27.33
